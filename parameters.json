@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westeurope"
+        },
+        "virtualMachineName": {
+            "value": "sapjirajump1"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D2s_v3"
+        },
+        "adminUsername": {
+            "value": "sapjira"
+        },
+        "virtualNetworkName": {
+            "value": "vnet-zone2-pmp"
+        },
+        "networkInterfaceName": {
+            "value": "sapjirajump1896"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "subnetName": {
+            "value": "subnet-zone2-pmp"
+        }
+    }
+}

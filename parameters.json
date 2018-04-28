@@ -2,29 +2,41 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "location": {
-            "value": "westeurope"
+        "jiraVmSize": {
+            "value": "Standard_DS3_v2"
         },
-        "virtualMachineName": {
-            "value": "sapjirajump1"
+        "jumpboxSshUser": {
+            "value": "jumpbox"
         },
-        "virtualMachineSize": {
-            "value": "Standard_D2s_v3"
+        "jumpboxSshKey": {
+            "value": ""
         },
-        "adminUsername": {
-            "value": "sapjira"
+        "nodeSshUser": {
+            "value": "jiranode"
         },
-        "virtualNetworkName": {
-            "value": "vnet-zone2-pmp"
-        },
-        "networkInterfaceName": {
-            "value": "sapjirajump1896"
-        },
-        "adminPassword": {
+        "nodeSshPassword": {
             "value": null
         },
-        "subnetName": {
-            "value": "subnet-zone2-pmp"
+        "dbUsername": {
+            "value": "jiadb"
+        },
+        "dbPassword": {
+            "value": null
+        },
+        "userName": {
+            "value": "c5213641"
+        },
+        "userFullname": {
+            "value": "maksim"
+        },
+        "userEmail": {
+            "value": "maksim.zazeka@sap.com"
+        },
+        "userCredential": {
+            "value": null
+        },
+        "clusterSize": {
+            "value": 6
         }
     }
 }

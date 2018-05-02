@@ -6,7 +6,7 @@
             "type": "string",
             "metadata": {
                 "description": "Base URL for Marketplace",
-                "artifactsBaseUrl": ""
+                "artifactsBaseUrl": "https://sapjiradcscripts.blob.core.windows.net/test"
             },
             "defaultValue": "https://gallery.azure.com/artifact/20151001/atlassian.jira-data-centerjira-software.1.0.7/Artifacts"
         },
